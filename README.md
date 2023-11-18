@@ -1,2 +1,3 @@
-# ai-butler
-Creating an AI assistant to help retreiving information from files
+# AI Butler
+
+Creating an AI assistant to help retrieving information from files.
