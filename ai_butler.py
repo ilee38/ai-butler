@@ -64,7 +64,7 @@ def clear_the_screen():
 
 
 def print_response(messages):
-   """ Prints the agent's response.
+   """ Prints the Assistant's response.
        The messages param is expected to be the thread's messages list sorted in
        descending order (sorted by the created_at timestamp of the messages).
    """
@@ -73,7 +73,6 @@ def print_response(messages):
 
 def start_thread(assistant):
    thread = client.beta.threads.create()
-   response_msg_index = 0
 
    clear_the_screen()
    print("""
